@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="day">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="朱宏古坐着电竞按摩椅穿越大乾，靠下馆子混成红谷侯，却发现信用卡账单也跟来了。原创搞笑穿越短篇，完整六章。">
+  <meta name="theme-color" content="#f45b3e">
+  <title>我都穿越了，怎么还要还信用卡？｜番薯小说 · 原创虚构</title>
+  <style>
+    :root{--brand:#f15b3e;--brand-hover:#d94d32;--brand-pale:#fff1eb;--bg:#f6f5f2;--paper:#fff;--paper-soft:#faf8f5;--ink:#262522;--muted:#787670;--line:#eae7e2;--reader-ink:#36332f;--shadow:0 16px 46px #34230e08;--reading-size:20px;--header:#ffffffed;--radius:16px;color-scheme:light}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:28px}
+    body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei","Noto Sans CJK SC",sans-serif;-webkit-font-smoothing:antialiased;line-height:1.6;padding-bottom:110px}
+    a{color:inherit;text-decoration:none}
+    button{font:inherit;cursor:pointer}
+    button,a,summary{-webkit-tap-highlight-color:transparent}
+    button{color:inherit}
+    button:disabled{cursor:not-allowed;opacity:.35}
+    a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #ee7f61;outline-offset:4px}
+    button svg,a svg{width:19px;height:19px;flex-shrink:0}
+    button{border:0;background:none}
+    .page-shell{max-width:1120px;margin:auto;padding:0 28px}
+    .site-header{height:82px;background:var(--paper);border-bottom:1px solid var(--line)}
+    .header-inner{height:100%;display:flex;align-items:center;gap:40px}
+    .brand{display:inline-flex;gap:10px;align-items:center;flex-shrink:0}
+    .brand-mark{width:34px;height:34px;border-radius:11px;background:var(--brand);display:grid;place-items:center;box-shadow:0 3px 8px #f15b3e22}
+    .brand-mark svg{width:22px;height:22px;color:white}
+    .brand-name{font-size:23px;font-weight:800;letter-spacing:1px}
+    .desktop-nav{display:flex;gap:28px;font-size:14px;color:var(--muted)}
+    .desktop-nav a:hover{color:var(--brand)}
+    .original-badge{margin-left:auto;font-size:11px;letter-spacing:1px;color:var(--muted);display:flex;gap:6px;align-items:center;white-space:nowrap}
+    .original-badge i{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--brand)}
+    .breadcrumbs{display:flex;align-items:center;gap:10px;font-size:12px;color:var(--muted);padding:23px 0 18px}
+    .breadcrumbs .sep{color:#b5b1aa}
+    .book-card{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:34px;display:grid;grid-template-columns:212px minmax(0,1fr);gap:36px;box-shadow:var(--shadow);position:relative;overflow:hidden}
+    .book-card:after{content:"";position:absolute;right:-90px;top:-150px;width:400px;height:400px;background:radial-gradient(circle,#f4d8bd18,transparent 70%);pointer-events:none}
+    .cover{aspect-ratio:3/4.12;width:100%;border-radius:3px 10px 10px 3px;position:relative;overflow:hidden;background:#172139;color:#fff;isolation:isolate;box-shadow:8px 12px 25px #1a14372b;border-left:5px solid #0b1021}
+    .cover:after{position:absolute;content:"";inset:0;border:1px solid #ffffff21;border-left:2px solid #ffffff17;z-index:4;pointer-events:none}
+    .cover-art{position:absolute;width:100%;height:100%;inset:0}
+    .cover-copy{position:absolute;inset:19px 17px auto;z-index:2}
+    .cover-series{font-size:8px;letter-spacing:3px;color:#efd5a3;margin-bottom:10px;display:flex;align-items:center;gap:8px}
+    .cover-series:after{content:"";height:1px;width:26px;background:#efd5a36b}
+    .cover-title{font-size:26px;line-height:1.25;font-weight:900;letter-spacing:-1.2px;text-shadow:0 3px 10px #111528}
+    .cover-title .warm{display:inline-block;color:#f4d6a4;margin-top:3px}
+    .cover-byline{position:absolute;bottom:12px;left:17px;font-size:8px;letter-spacing:1.5px;color:#e9d8bf;z-index:2}
+    .book-details{align-self:center;position:relative;z-index:1;min-width:0}
+    .book-labels{display:flex;gap:8px;align-items:center;margin-bottom:13px;flex-wrap:wrap}
+    .tag-status{font-size:11px;font-weight:600;color:var(--brand);background:var(--brand-pale);padding:3px 9px;border-radius:4px}
+    .tag-genre{font-size:11px;color:var(--muted);border:1px solid var(--line);padding:2px 9px;border-radius:4px}
+    h1{font-size:31px;font-weight:800;letter-spacing:-.7px;line-height:1.45;margin:0 0 14px;text-wrap:balance}
+    .author-line{display:flex;gap:9px;align-items:center;color:var(--muted);font-size:13px}
+    .author-avatar{width:24px;height:24px;background:#eddfce;color:#7e6650;border-radius:50%;display:inline-grid;place-items:center;font-size:10px;flex-shrink:0}
+    .author-name{color:var(--ink)}
+    .book-metrics{display:flex;gap:25px;margin:19px 0 17px;align-items:center}
+    .metric{display:flex;gap:5px;align-items:baseline;font-size:12px;color:var(--muted)}
+    .metric strong{font-weight:700;font-size:19px;letter-spacing:-.5px;color:var(--ink)}
+    .metric+.metric{padding-left:25px;border-left:1px solid var(--line)}
+    .book-hook{font-size:14px;color:var(--muted);margin:0 0 21px}
+    .hero-actions{display:flex;gap:10px;flex-wrap:wrap}
+    .button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:11px 23px;border-radius:7px;font-weight:600;font-size:13px;transition:background .2s,transform .2s;border:1px solid transparent;white-space:nowrap}
+    .button:hover{transform:translateY(-1px)}
+    .button-primary{background:var(--brand);color:#fff}
+    .button-primary:hover{background:var(--brand-hover)}
+    .button-secondary{border-color:var(--line);background:var(--paper);color:var(--ink)}
+    .button-secondary:hover{background:var(--paper-soft)}
+    .button-quiet{color:var(--muted);padding-left:12px;padding-right:12px}
+    .intro-card{margin-top:22px;padding:28px 34px;background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);display:grid;grid-template-columns:minmax(0,1fr) 240px;gap:34px}
+    .section-title{display:flex;align-items:center;gap:9px;font-size:17px;margin:0 0 17px;font-weight:700}
+    .section-title:before{content:"";width:3px;height:16px;border-radius:2px;background:var(--brand)}
+    .intro-text{font-size:14px;line-height:1.95;color:var(--muted)}
+    .intro-text p{margin:0 0 7px}
+    .intro-text p:last-child{margin-bottom:0}
+    .intro-text .system-message{font-size:13px;margin-top:14px;margin-bottom:0}
+    .story-tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:20px}
+    .story-tags span{padding:3px 10px;background:var(--paper-soft);border:1px solid var(--line);border-radius:5px;font-size:11px;color:var(--muted)}
+    .story-stamp{border-left:1px solid var(--line);padding-left:30px;align-self:center}
+    .stamp-heading{font-size:10px;letter-spacing:2px;color:var(--brand);margin-bottom:15px;font-weight:700}
+    .stamp-line{display:flex;align-items:flex-start;gap:12px;margin:18px 0;color:var(--muted);font-size:12px;line-height:1.6}
+    .stamp-icon{font-size:17px;color:#aa8f73;width:22px;flex-shrink:0;line-height:1.8}
+    .stamp-line strong{display:block;color:var(--ink);font-size:13px;margin-bottom:3px;font-weight:600}
+    .reading-label{display:flex;align-items:baseline;justify-content:space-between;margin:32px 1px 16px;gap:14px}
+    .reading-label h2{font-size:17px;margin:0;font-weight:700}
+    .reading-label span{font-size:11px;color:var(--muted)}
+    .reading-layout{display:grid;grid-template-columns:minmax(0,1fr) 238px;grid-template-areas:"novel sidebar";gap:22px;align-items:start}
+    .sidebar{grid-area:sidebar;position:sticky;top:24px}
+    .toc-card{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:22px 16px 18px}
+    .toc-card-head{display:flex;justify-content:space-between;align-items:center;padding:0 4px 14px;border-bottom:1px solid var(--line);margin-bottom:8px}
+    .toc-card-head h2{font-size:14px;margin:0}
+    .toc-card-head span{font-size:10px;color:var(--muted)}
+    .toc-list{list-style:none;padding:0;margin:0}
+    .toc-list a{font-size:12px;color:var(--muted);display:flex;align-items:flex-start;gap:8px;padding:11px 7px;border-radius:6px;line-height:1.65}
+    .toc-list a:hover,.toc-list a[aria-current="location"]{background:var(--brand-pale);color:var(--brand)}
+    .toc-number{font-family:Georgia,serif;font-size:11px;line-height:1.9;opacity:.6;flex-shrink:0;width:15px}
+    .toc-arrow{margin-left:auto;opacity:.6;flex-shrink:0}
+    .reading-status{margin-top:16px;padding:17px 18px;border:1px solid var(--line);border-radius:12px;background:var(--paper)}
+    .reading-status-head{display:flex;align-items:center;justify-content:space-between;font-size:11px;color:var(--muted);gap:12px}
+    .reading-status-head strong{font-size:15px;font-variant-numeric:tabular-nums;color:var(--ink)}
+    .mini-track{height:3px;background:var(--line);border-radius:5px;margin:11px 0 10px;overflow:hidden}
+    .mini-track span{display:block;width:0;height:100%;background:var(--brand);transition:width .1s}
+    .sidebar-caption{margin:0;font-size:10px;line-height:1.8;color:var(--muted)}
+    .side-quote{font-size:12px;line-height:2;color:var(--muted);padding:21px 17px;font-family:"Songti SC","Noto Serif CJK SC",serif}
+    .side-quote b{font-family:Georgia,serif;font-size:30px;line-height:1;color:#bfa994;display:block;margin-bottom:7px;font-weight:400}
+    .novel-body{grid-area:novel;min-width:0;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:0 58px;box-shadow:var(--shadow)}
+    .chapter{padding:53px 0 46px;border-bottom:1px solid var(--line);scroll-margin-top:25px}
+    .chapter:last-of-type{border-bottom:0}
+    .chapter-kicker{display:flex;align-items:center;gap:16px;margin-bottom:18px}
+    .chapter-kicker span{font-size:10px;letter-spacing:2.3px;color:var(--brand);font-weight:700}
+    .chapter-kicker i{width:38px;height:1px;background:var(--line)}
+    .chapter h2{font-size:25px;line-height:1.6;margin:0 0 33px;letter-spacing:-.4px;font-weight:700;text-wrap:pretty}
+    .chapter-text{font-family:"Charter","Songti SC","Noto Serif CJK SC","SimSun",serif;font-size:var(--reading-size);line-height:2;color:var(--reader-ink);overflow-wrap:break-word;letter-spacing:.2px}
+    .chapter-text p{margin:0 0 1em;text-indent:2em;hanging-punctuation:first last}
+    .chapter-text p:last-child{margin-bottom:0}
+    .chapter-text .punchline{font-weight:700}
+    .system-message{border-left:3px solid #e39a6a;background:var(--paper-soft);padding:14px 16px;margin:19px 0 25px;border-radius:0 6px 6px 0;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei","Noto Sans CJK SC",sans-serif;font-size:.82em;line-height:1.9;letter-spacing:0}
+    .system-message p{text-indent:0;margin:0 0 5px}
+    .system-message p:last-child{margin:0}
+    .end-card{text-align:center;border-top:1px solid var(--line);padding:35px 0 42px}
+    .end-ornament{color:#c4ad91;letter-spacing:7px;font-size:11px;margin-bottom:10px}
+    .end-card h3{font-size:17px;margin:0 0 9px;font-weight:600}
+    .end-card p{font-size:12px;color:var(--muted);margin:0 0 20px}
+    .end-card .button{font-weight:500;font-size:12px}
+    .page-footer{padding:32px 16px 10px;text-align:center;color:var(--muted);font-size:11px;line-height:1.9}
+    .page-footer b{color:var(--ink);font-weight:600;letter-spacing:1px}
+    .reader-dock{display:none;position:fixed;z-index:30;bottom:20px;left:50%;transform:translateX(-50%);gap:2px;padding:6px 8px;background:var(--header);border:1px solid var(--line);border-radius:14px;box-shadow:0 6px 30px #18100812;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+    .js .reader-dock{display:flex}
+    .dock-button{display:flex;align-items:center;justify-content:center;gap:7px;min-height:42px;padding:8px 15px;border-radius:8px;font-size:12px;color:var(--muted);white-space:nowrap}
+    .dock-button:hover,.dock-button[aria-expanded="true"]{background:var(--brand-pale);color:var(--brand)}
+    .dock-button svg{width:17px;height:17px}
+    .dock-divider{width:1px;background:var(--line);margin:9px 3px}
+    .read-progress-track{position:fixed;top:0;left:0;right:0;z-index:45;height:3px;pointer-events:none}
+    .read-progress-track span{display:block;width:0;height:100%;background:var(--brand)}
+    .font-popover{position:fixed;z-index:41;bottom:91px;left:50%;transform:translateX(-50%);padding:19px 21px;background:var(--paper);border:1px solid var(--line);border-radius:12px;box-shadow:0 10px 36px #18100819;width:272px}
+    .font-popover[hidden]{display:none}
+    .font-popover h3{font-size:13px;margin:0 0 15px}
+    .font-controls{display:flex;justify-content:space-between;align-items:center;gap:20px}
+    .font-controls button{border:1px solid var(--line);border-radius:6px;width:54px;height:38px;background:var(--paper-soft);font-family:Georgia,serif;font-size:17px}
+    .font-controls output{font-size:13px;font-variant-numeric:tabular-nums;color:var(--muted)}
+    dialog{background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:16px;padding:25px;width:440px;max-width:calc(100vw - 32px);max-height:80dvh;box-shadow:0 20px 80px #0003}
+    dialog::backdrop{background:#17171660;backdrop-filter:blur(3px)}
+    .dialog-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:17px}
+    .dialog-head h2{font-size:18px;margin:0}
+    .dialog-head p{font-size:11px;margin:4px 0 0;color:var(--muted)}
+    .dialog-close{width:38px;height:38px;border:1px solid var(--line);border-radius:50%;font-size:22px;color:var(--muted);line-height:1}
+    .dialog-close:hover{background:var(--paper-soft)}
+    dialog .toc-list a{font-size:14px;padding:12px 7px}
+    .toast{position:fixed;left:50%;bottom:100px;transform:translateX(-50%) translateY(12px);z-index:60;max-width:calc(100vw - 32px);width:max-content;border-radius:9px;padding:11px 18px;background:#252522ed;color:#fff;box-shadow:0 8px 30px #0002;font-size:12px;line-height:1.7;opacity:0;pointer-events:none;transition:opacity .2s,transform .2s;text-align:center}
+    .toast.visible{opacity:1;transform:translateX(-50%) translateY(0)}
+    .js-only{display:none}
+    .js .js-only{display:inline-flex}
+    [data-theme="night"]{--bg:#18191c;--paper:#222327;--paper-soft:#292a2e;--ink:#e9e5df;--muted:#aaa49d;--line:#36363b;--reader-ink:#d3cec6;--brand:#ff8968;--brand-hover:#f47a57;--brand-pale:#382a25;--header:#222327ee;--shadow:none;color-scheme:dark}
+    [data-theme="night"] .button-primary{background:#d76b4c;color:#fff}
+    [data-theme="night"] .author-avatar{background:#493b31;color:#e3c7a5}
+    [data-theme="night"] .original-badge{color:#aaa49d}
+    @media(min-width:1300px){.book-card{gap:40px}.novel-body{padding-left:64px;padding-right:64px}}
+    @media(max-width:900px){.page-shell{padding:0 22px}.book-card{padding:28px;grid-template-columns:180px minmax(0,1fr);gap:28px}h1{font-size:26px}.cover-title{font-size:22px}.cover-copy{inset:16px 14px auto}.cover-series{font-size:7px;margin-bottom:8px}.cover-byline{left:14px;font-size:7px}.book-metrics{margin:15px 0}.book-hook{font-size:13px}.hero-actions .button{padding:10px 15px;min-height:42px}.intro-card{grid-template-columns:minmax(0,1fr) 200px;padding:26px 28px;gap:26px}.story-stamp{padding-left:24px}.reading-layout{grid-template-columns:minmax(0,1fr) 210px;gap:16px}.novel-body{padding:0 32px}.toc-card{padding:18px 12px}.chapter h2{font-size:23px}.chapter-text{font-size:var(--reading-size)}}
+    @media(max-width:700px){body{padding-bottom:104px}.page-shell{padding:0 16px}.site-header{height:66px}.header-inner{gap:18px}.brand-name{font-size:20px}.brand-mark{width:30px;height:30px;border-radius:9px}.brand-mark svg{width:20px;height:20px}.brand{gap:8px}.desktop-nav{display:none}.original-badge{font-size:10px;letter-spacing:.4px}.breadcrumbs{padding:17px 0 14px;font-size:10px}.book-card{padding:23px 20px;grid-template-columns:112px minmax(0,1fr);column-gap:19px;row-gap:20px;border-radius:12px;align-items:start}.cover{border-left-width:3px;border-radius:2px 6px 6px 2px;align-self:start;margin-top:4px;box-shadow:5px 8px 17px #1a143721}.cover-copy{inset:10px 8px auto}.cover-series{font-size:5px;letter-spacing:1.5px;gap:4px;margin-bottom:7px}.cover-series:after{width:14px}.cover-title{font-size:14px;letter-spacing:-.6px;line-height:1.3}.cover-byline{bottom:7px;left:9px;font-size:5px;letter-spacing:.7px}.book-details{display:contents}.book-labels{margin-bottom:8px;gap:5px}.book-main{min-width:0}.tag-status,.tag-genre{font-size:9px;padding:2px 6px}h1{font-size:20px;line-height:1.5;letter-spacing:-.6px;margin-bottom:10px;text-wrap:initial}.author-line{font-size:11px;gap:6px;flex-wrap:wrap}.author-avatar{width:19px;height:19px;font-size:8px}.author-suffix{display:none}.book-metrics{gap:14px;margin:12px 0 0;flex-wrap:wrap}.metric{font-size:10px;gap:4px}.metric strong{font-size:15px}.metric+.metric{padding-left:14px}.book-hook{font-size:12px;margin:0;grid-column:1/-1;background:var(--paper-soft);padding:10px 12px;border-radius:6px}.hero-actions{grid-column:1/-1;gap:9px;margin-top:-7px}.hero-actions .button{flex:1;min-height:43px;padding:10px;font-size:12px}.hero-actions .button-quiet{flex:0 0 42px}.hero-actions .button-quiet span{display:none}.hero-actions .button-quiet{border:1px solid var(--line)}.intro-card{margin-top:15px;padding:24px 22px;display:block;border-radius:12px}.section-title{font-size:16px;margin-bottom:15px}.intro-text{font-size:13px;line-height:1.95}.intro-text p{margin-bottom:7px}.story-stamp{display:none}.story-tags{margin-top:18px;gap:6px}.story-tags span{font-size:10px;padding:3px 8px}.reading-label{margin:26px 0 14px;align-items:flex-start}.reading-label h2{font-size:16px;white-space:nowrap}.reading-label span{font-size:10px;text-align:right;max-width:190px;line-height:1.7}.reading-layout{grid-template-columns:minmax(0,1fr);grid-template-areas:"sidebar" "novel";gap:16px}.sidebar{position:static}.toc-card{padding:20px 18px 14px;border-radius:12px}.toc-card-head{padding-bottom:12px}.toc-list{display:grid;grid-template-columns:1fr 1fr;gap:2px 10px}.toc-list a{padding:9px 4px;font-size:11px;gap:6px}.toc-number{font-size:10px;width:12px}.toc-arrow{display:none}.reading-status,.side-quote{display:none}.novel-body{padding:0 23px;border-radius:12px}.chapter{padding:37px 0 33px;scroll-margin-top:20px}.chapter-kicker{margin-bottom:13px}.chapter-kicker span{font-size:9px;letter-spacing:2px}.chapter h2{font-size:23px;line-height:1.65;margin-bottom:25px;letter-spacing:-.6px}.chapter-text{font-size:var(--reading-size);line-height:1.95;letter-spacing:0}.chapter-text p{margin-bottom:1.05em}.system-message{padding:12px 11px;font-size:.78em;margin:17px 0 23px}.system-message p{margin-bottom:6px}.reader-dock{bottom:0;left:0;right:0;transform:none;justify-content:space-around;border-radius:16px 16px 0 0;border-bottom:0;padding:6px 7px calc(8px + env(safe-area-inset-bottom,0px));box-shadow:0 -4px 24px #18100809;gap:0}.dock-button{flex:1;flex-direction:column;gap:4px;font-size:10px;padding:6px 7px;min-height:48px}.dock-button svg{width:19px;height:19px}.dock-divider{margin:10px 3px}.font-popover{bottom:calc(85px + env(safe-area-inset-bottom,0px));width:272px}.toast{bottom:calc(88px + env(safe-area-inset-bottom,0px));font-size:12px}.end-card{padding:28px 0 34px}.page-footer{padding-top:26px;font-size:10px}dialog{padding:22px 20px;max-height:75dvh}dialog .toc-list{display:block}dialog .toc-list a{font-size:13px;padding:12px 5px}dialog .toc-arrow{display:inline}}
+    @media(max-width:370px){.page-shell{padding:0 12px}.book-card{padding:20px 16px;grid-template-columns:94px minmax(0,1fr);gap:17px}.cover-title{font-size:12px}.cover-series{font-size:4px;margin-bottom:6px}.cover-copy{inset:9px 7px auto}.cover-byline{font-size:4px;left:7px}h1{font-size:18px}.book-labels{gap:4px}.tag-status,.tag-genre{font-size:8px;padding:2px 5px}.author-line{font-size:10px}.book-metrics{gap:10px}.metric+.metric{padding-left:10px}.metric strong{font-size:14px}.intro-card{padding:21px 19px}.novel-body{padding:0 20px}.chapter h2{font-size:21px}.toc-list{gap:0 7px}.toc-list a{font-size:10px}.toc-number{width:11px}.brand-name{font-size:18px}.original-badge{font-size:9px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+    @media print{body{padding:0;background:white;color:#222}.site-header,.breadcrumbs,.sidebar,.reader-dock,.font-popover,.read-progress-track,.toast,dialog,.hero-actions,.end-card button{display:none!important}.page-shell{max-width:none;padding:0}.book-card{box-shadow:none;border:0;padding:0 0 24px;grid-template-columns:145px 1fr}.intro-card{border:0;padding:15px 0;display:block}.story-stamp{display:none}.reading-layout{display:block}.novel-body{border:0;padding:0;box-shadow:none}.chapter{break-before:page;padding:20px 0}.chapter-text{font-size:12pt;color:#222;line-height:1.8}.chapter h2{font-size:18pt}.chapter-text p{orphans:3;widows:3}.system-message{break-inside:avoid}.page-footer{margin-top:20px}.book-hook{color:#444}}
+  </style>
+</head>
+<body id="top">
+<div class="read-progress-track" aria-hidden="true"><span id="progress-bar"></span></div>
+<header class="site-header">
+  <div class="page-shell header-inner">
+    <a class="brand" href="#top" aria-label="番薯小说，返回书籍首页">
+      <span class="brand-mark"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 5.5C7.2 4.8 9.8 5.6 12 7.2C14.2 5.6 16.8 4.8 20 5.5V18.6C16.9 17.9 14.3 18.5 12 20C9.7 18.5 7.1 17.9 4 18.6V5.5Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M12 7.5V19M7 9H9M15 9H17M7 12H9M15 12H17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span>
+      <span class="brand-name">番薯小说</span>
+    </a>
+    <nav class="desktop-nav" aria-label="页面导航"><a href="#book">作品详情</a><a href="#contents">章节目录</a><a href="#chapter-1">正文阅读</a></nav>
+    <span class="original-badge"><i></i>原创虚构 · 戏仿书页</span>
+  </div>
+</header>
+<main class="page-shell">
+  <div class="breadcrumbs" aria-label="当前位置"><a href="#top">首页</a><span class="sep">/</span><span>历史脑洞</span><span class="sep">/</span><span>红谷侯传奇</span></div>
+  <section class="book-card" id="book" aria-labelledby="book-title">
+    <div class="cover" role="img" aria-label="小说封面：金色宫阙前，一把亮着七彩灯的电竞按摩椅，以及一张六万三千八百八十八元的账单。">
+      <svg class="cover-art" viewBox="0 0 300 412" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+        <defs>
+          <linearGradient id="cover-bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#18263e"/><stop offset=".55" stop-color="#1a1638"/><stop offset="1" stop-color="#39304b"/></linearGradient>
+          <radialGradient id="glow-purple"><stop stop-color="#8e42dd" stop-opacity=".55"/><stop offset="1" stop-color="#8e42dd" stop-opacity="0"/></radialGradient>
+          <radialGradient id="glow-blue"><stop stop-color="#25b9cf" stop-opacity=".5"/><stop offset="1" stop-color="#25b9cf" stop-opacity="0"/></radialGradient>
+          <linearGradient id="rgb-line" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#4ed9cc"/><stop offset=".45" stop-color="#ac8cfa"/><stop offset="1" stop-color="#f8b476"/></linearGradient>
+          <linearGradient id="chair-bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#323956"/><stop offset="1" stop-color="#111b2d"/></linearGradient>
+          <linearGradient id="floor-glow"><stop stop-color="#1b3453" stop-opacity="0"/><stop offset=".48" stop-color="#5789bb" stop-opacity=".55"/><stop offset="1" stop-color="#5e4969" stop-opacity="0"/></linearGradient>
+        </defs>
+        <rect width="300" height="412" fill="url(#cover-bg)"/>
+        <ellipse cx="250" cy="285" rx="145" ry="156" fill="url(#glow-purple)"/>
+        <ellipse cx="54" cy="320" rx="140" ry="136" fill="url(#glow-blue)"/>
+        <g stroke="#d3ac76" fill="none" opacity=".28" stroke-width="1">
+          <path d="M-10 290H310M-10 294H310M4 240L48 226L91 240M1 245H95M11 248V289M83 248V289M23 248V289M71 248V289M15 260H80M219 226L260 213L304 226M216 231H306M225 234V289M296 234V289M235 234V289M286 234V289M224 252H298"/>
+          <path d="M26 225L48 217L70 225M241 212L260 205L282 212M47 217V207M260 204V194"/>
+          <path d="M-20 329L320 329M-20 337L320 337M-20 347L320 347M-10 358L310 358M25 294L-22 380M87 294L58 380M150 294L150 380M212 294L243 380M274 294L324 380" opacity=".45"/>
+        </g>
+        <g fill="#f2d0a1" opacity=".45"><circle cx="265" cy="169" r="1"/><circle cx="42" cy="185" r="1.3"/><circle cx="234" cy="188" r=".8"/><circle cx="267" cy="323" r="1"/><circle cx="25" cy="300" r="1.1"/><circle cx="184" cy="184" r="1"/></g>
+        <ellipse cx="152" cy="364" rx="110" ry="13" fill="url(#floor-glow)"/>
+        <g transform="translate(34 170)">
+          <path d="M115 141V179M115 176L77 189M115 176L156 188M115 176L113 197" stroke="#586074" stroke-width="8" stroke-linecap="round"/>
+          <path d="M76 26L89 8Q109-1 136 9L154 32L150 97L164 124Q162 147 140 151H87Q64 147 61 128L72 92Z" fill="url(#chair-bg)" stroke="#6b6a88" stroke-width="2"/>
+          <path d="M88 16L78 35L75 92L64 127Q68 143 85 145M139 17L148 35L144 94L158 126Q154 142 139 145" fill="none" stroke="url(#rgb-line)" stroke-width="4" stroke-linecap="round"/>
+          <path d="M91 37Q113 27 133 39L131 93Q114 103 93 93Z" fill="#293249"/>
+          <path d="M94 40L93 68M132 41L131 68" stroke="#ad8ee8" stroke-width="1.3" opacity=".6"/>
+          <rect x="97" y="19" width="32" height="15" rx="7" fill="#141d31" stroke="#65617d"/>
+          <path d="M87 105Q112 97 139 105L144 128Q113 139 82 127Z" fill="#343e56"/>
+          <path d="M76 109L48 114V135L71 136M150 109L177 114V135L154 136" stroke="#121a2b" stroke-width="11" stroke-linejoin="round" fill="none"/>
+          <path d="M46 111L73 106M153 106L180 111" stroke="url(#rgb-line)" stroke-width="3" stroke-linecap="round"/>
+          <path d="M81 140L67 170Q110 190 148 172L144 145" fill="#202c43" stroke="#59617b" stroke-width="1.5"/>
+          <path d="M72 171Q112 184 147 171" fill="none" stroke="url(#rgb-line)" stroke-width="2"/>
+        </g>
+        <g transform="translate(211 287) rotate(12)">
+          <rect width="66" height="64" rx="3" fill="#eedec3"/>
+          <path d="M8 12H57M8 17H44M8 47H53M8 52H43" stroke="#8b7762" stroke-width="1" opacity=".55"/>
+          <text x="7" y="34" fill="#8b3d3c" font-size="12" font-weight="700" font-family="Arial,sans-serif">63,888</text>
+          <text x="8" y="61" fill="#8b7762" font-size="5" letter-spacing=".7" font-family="Arial,sans-serif">PAYMENT DUE</text>
+        </g>
+        <path d="M13 13V399H287" fill="none" stroke="#e8d4aa" stroke-opacity=".2"/>
+      </svg>
+      <div class="cover-copy"><div class="cover-series">红 谷 侯 传 奇</div><div class="cover-title">我都穿越了，<br>怎么还要还<br><span class="warm">信用卡？</span></div></div>
+      <div class="cover-byline">最低还款真君 / 著</div>
+    </div>
+    <div class="book-details">
+      <div class="book-main">
+        <div class="book-labels"><span class="tag-status">本卷完</span><span class="tag-genre">历史脑洞</span><span class="tag-genre">搞笑穿越</span></div>
+        <h1 id="book-title">我都穿越了，<br class="desktop-break">怎么还要还信用卡？</h1>
+        <div class="author-line"><span class="author-avatar" aria-hidden="true">最</span><span class="author-name">最低还款真君</span><span class="author-suffix">著</span></div>
+        <div class="book-metrics"><span class="metric"><strong>6</strong>章正文</span><span class="metric"><strong>约 3.8</strong>千字</span><span class="metric"><strong>1</strong>篇卷末小记</span></div>
+      </div>
+      <p class="book-hook">别人穿越带系统，他穿越带月供。</p>
+      <div class="hero-actions">
+        <a class="button button-primary" id="start-reading" href="#chapter-1"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 4.5C8 4 10 4.6 12 6C14 4.6 16 4 19 4.5V19C16 18.5 14 19 12 20.5C10 19 8 18.5 5 19V4.5Z" stroke="currentColor" stroke-width="1.7"/><path d="M12 6V20" stroke="currentColor" stroke-width="1.7"/></svg><span id="start-label">开始阅读</span></a>
+        <button class="button button-secondary js-only" type="button" data-action="download"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3V15M7 10L12 15L17 10M5 16V20H19V16" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>保存全文</button>
+        <button class="button button-quiet js-only" type="button" data-action="share" aria-label="分享完整 HTML 文件给朋友" title="分享完整 HTML 文件"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 15V3M7 8L12 3L17 8M5 13V20H19V13" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg><span>分享</span></button>
+      </div>
+    </div>
+  </section>
+  <section class="intro-card" aria-labelledby="intro-title">
+    <div><h2 class="section-title" id="intro-title">作品简介</h2><div class="intro-text"><p>朱宏古这辈子有三个坚持。</p>
+<p>装备必须花里胡哨，吃饭必须天天下馆子，至于信用卡——下个月的朱宏古自然会想办法。</p>
+<p>直到某天，他坐着分十二期买的电竞按摩椅，连人带椅穿越到了大乾王朝。</p>
+<p>七彩灯一亮，百官跪地。</p>
+<p>按摩程序一开，皇帝当场不想上朝。</p>
+<p>靠着多年下馆子的经验，他查御膳、开酒楼、封侯拜相，眼看就要走上人生巅峰。</p>
+<p>然而，椅子扶手上的屏幕突然亮了。</p>
+<div class="system-message" role="note">
+<p>【尊敬的持卡人，已为您切换至大乾服务区。】</p>
+<p>【山河可以变，账单不会断。】</p>
+</div></div><div class="story-tags"><span>穿越</span><span>搞笑</span><span>美食</span><span>经营</span><span>精神状态良好</span></div></div>
+    <aside class="story-stamp" aria-label="本书看点"><div class="stamp-heading">THE HONGGU STORY</div><div class="stamp-line"><span class="stamp-icon">▧</span><div><strong>一把电竞按摩椅</strong>七彩一亮，百官跪地。</div></div><div class="stamp-line"><span class="stamp-icon">♨</span><div><strong>一位资深下馆子选手</strong>不通仙术，但懂上菜。</div></div><div class="stamp-line"><span class="stamp-icon">¥</span><div><strong>一张跨朝代的账单</strong>山河可以变，月供不能断。</div></div></aside>
+  </section>
+  <div class="reading-label"><h2>正文阅读</h2><span>第一卷 · 朱门酒肉香，余额负八万</span></div>
+  <div class="reading-layout">
+    <aside class="sidebar" id="contents">
+      <nav class="toc-card" aria-labelledby="toc-title"><div class="toc-card-head"><h2 id="toc-title">章节目录</h2><span>全六章 · 附小记</span></div><ol class="toc-list"><li><a href="#chapter-1" data-chapter="chapter-1"><span class="toc-number">01</span><span>别人穿越带系统，我穿越带月供</span><span class="toc-arrow">›</span></a></li>
+<li><a href="#chapter-2" data-chapter="chapter-2"><span class="toc-number">02</span><span>陛下，您先把腰背模式关了</span><span class="toc-arrow">›</span></a></li>
+<li><a href="#chapter-3" data-chapter="chapter-3"><span class="toc-number">03</span><span>臣不懂仙术，臣只是天天下馆子</span><span class="toc-arrow">›</span></a></li>
+<li><a href="#chapter-4" data-chapter="chapter-4"><span class="toc-number">04</span><span>人都封侯了，卡怎么还是负的</span><span class="toc-arrow">›</span></a></li>
+<li><a href="#chapter-5" data-chapter="chapter-5"><span class="toc-number">05</span><span>红谷仙人馆，吃完按一按</span><span class="toc-arrow">›</span></a></li>
+<li><a href="#chapter-6" data-chapter="chapter-6"><span class="toc-number">06</span><span>陛下，国库不支持最低还款</span><span class="toc-arrow">›</span></a></li>
+<li><a href="#epilogue" data-chapter="epilogue"><span class="toc-number">07</span><span>卷末小记</span><span class="toc-arrow">›</span></a></li></ol></nav>
+      <div class="reading-status"><div class="reading-status-head"><span>阅读进度</span><strong id="progress-label">0%</strong></div><div class="mini-track"><span id="mini-progress"></span></div><p class="sidebar-caption">不用急，月供还有七天。<br>这一卷，慢慢看。</p></div>
+      <div class="side-quote"><b>“</b>装备必须花里胡哨，<br>吃饭必须天天下馆子。<br>至于信用卡——<br>下个月的朱宏古<br>自然会想办法。</div>
+    </aside>
+    <article class="novel-body" aria-label="小说完整正文"><section class="chapter" id="chapter-1" aria-labelledby="heading-chapter-1">
+    <div class="chapter-kicker"><span>CHAPTER 01</span><i></i></div>
+    <h2 id="heading-chapter-1">第一章　别人穿越带系统，我穿越带月供</h2>
+    <div class="chapter-text"><p>朱宏古买下那把电竞按摩椅的时候，银行卡里还有四百三十二块六。</p>
+<p>椅子售价两万六千九百九十九。</p>
+<p>朋友问他：“你觉得合理吗？”</p>
+<p>朱宏古正在认真研究椅背上的九区氛围灯。</p>
+<p>“你不能只看价格。”</p>
+<p>“那看什么？”</p>
+<p>“你看它会变色。”</p>
+<p>朋友沉默了很久。</p>
+<p>“你这东西是不是太花里胡哨了？”</p>
+<p>朱宏古摇头，神情庄严。</p>
+<p>“这叫红谷。”</p>
+<p>在他的审美体系里，一件东西实不实用，可以商量；够不够红谷，没有余地。</p>
+<p>电脑主机必须亮，键盘必须亮，鼠标垫最好也亮。游戏可以打得像个路人，坐下去必须像总决赛选手入场。</p>
+<p>销售介绍，椅子具有十八种按摩程序、七十二组揉捏节点，以及独家的“帝王沉浸模式”。</p>
+<p>朱宏古当场刷卡。</p>
+<p>他不允许自己的人生缺少这种关键配置。</p>
+<p>晚上，他照例下馆子，点了松鼠鳜鱼、响油鳝糊、蟹粉豆腐，又加了一份八宝鸭。</p>
+<p>结账时，服务员问：“先生，还是信用卡？”</p>
+<p>“嗯。”</p>
+<p>“分期吗？”</p>
+<p>“饭就不分了。”</p>
+<p>朱宏古对此颇有原则。</p>
+<p>回到家，他挺着吃撑的肚子，陷进新椅子，郑重按下了“帝王沉浸”。</p>
+<p>靠背缓缓放倒。</p>
+<p>脚托徐徐升起。</p>
+<p>九色灯光依次点亮，像一座即将启动的小型夜总会。</p>
+<p>恰在此时，手机弹出账单。</p>
+<div class="system-message" role="note">
+<p>【本期应还：人民币63,888.00元。】</p>
+</div>
+<p>朱宏古看了一眼，将手机扣在肚子上。</p>
+<p>“下个月再说。”</p>
+<p>话音落下，椅子忽然震了一下。</p>
+<p>一个冰冷的声音响起。</p>
+<div class="system-message" role="note">
+<p>【检测到用户具有强烈的现实逃避意愿。】</p>
+<p>【正在匹配帝王沉浸场景。】</p>
+</div>
+<p>朱宏古猛地睁眼。</p>
+<p>“等会儿，我要的是按摩——”</p>
+<p>白光吞没了整个房间。</p></div>
+    </section>
+<section class="chapter" id="chapter-2" aria-labelledby="heading-chapter-2">
+    <div class="chapter-kicker"><span>CHAPTER 02</span><i></i></div>
+    <h2 id="heading-chapter-2">第二章　陛下，您先把腰背模式关了</h2>
+    <div class="chapter-text"><p>大乾，金銮殿。</p>
+<p>户部尚书正跪在地上，汇报今年的财政亏空。</p>
+<p>皇帝揉着腰，听得头疼。</p>
+<p>就在这时，殿中轰然一响。</p>
+<p>一把漆黑巨椅凭空出现，四周七彩流转，底部幽蓝如海，椅背上的两条灯带宛若游龙。</p>
+<p>椅子上躺着一个年轻人。</p>
+<p>穿拖鞋。</p>
+<p>抱手机。</p>
+<p>肚子上还搭着一张没来得及扔的饭店发票。</p>
+<p>禁军拔刀。</p>
+<p>百官惊呼。</p>
+<p>朱宏古想坐起来，腰部气囊却恰好启动，将他牢牢夹在了座位上。</p>
+<p>紧接着，揉捏滚轮开始沿脊柱上行。</p>
+<p>他浑身一颤。</p>
+<p>又一颤。</p>
+<p>礼部尚书面色大变。</p>
+<p>“仙人正在行法！”</p>
+<p>朱宏古咬牙：“不是，我被卡住了。”</p>
+<p>众臣听不懂“卡住”，只觉得这三个字暗含天机。</p>
+<p>皇帝从龙椅上站起。</p>
+<p>“敢问仙长名讳？”</p>
+<p>“朱宏古。”</p>
+<p>“此乃何物？”</p>
+<p>“电竞按摩椅。”</p>
+<p>皇帝缓缓重复：“电……竞……”</p>
+<p>国师倒吸一口凉气。</p>
+<p>“与雷霆相竞！好大的气魄！”</p>
+<p>朱宏古还想解释，椅子忽然响起一个温柔的女声。</p>
+<p>“欢迎使用帝王模式。请放松身体，享受尊贵人生。”</p>
+<p>满殿死寂。</p>
+<p>皇帝的眼睛亮了。</p>
+<p>一炷香后，大乾天子躺在电竞按摩椅上，双脚离地，表情逐渐安详。</p>
+<p>朱宏古站在旁边，小声提醒：</p>
+<p>“陛下，力度可以调。”</p>
+<p>“不必。”</p>
+<p>“您刚才不是说有点重？”</p>
+<p>皇帝闭着眼。</p>
+<p>“朕受得住。”</p>
+<p>又过片刻，他忽然闷哼一声。</p>
+<p>百官齐齐跪下。</p>
+<p>“臣等愿为陛下分忧！”</p>
+<p>皇帝抬了抬手。</p>
+<p>“分不了。”</p>
+<p>“这东西一次只能坐一个。”</p>
+<p>当天早朝，被史官记为：</p>
+<p>帝遇仙人，得神座，龙颜大悦，罢朝半日。</p>
+<p>只有朱宏古知道，皇帝不是龙颜大悦。</p>
+<p class="punchline">是按摩程序没结束，他舍不得起来。</p></div>
+    </section>
+<section class="chapter" id="chapter-3" aria-labelledby="heading-chapter-3">
+    <div class="chapter-kicker"><span>CHAPTER 03</span><i></i></div>
+    <h2 id="heading-chapter-3">第三章　臣不懂仙术，臣只是天天下馆子</h2>
+    <div class="chapter-text"><p>为款待仙人，皇帝命御膳房设宴。</p>
+<p>朱宏古坐在席间，看着一道道端上来的菜，第一次觉得穿越也不是不行。</p>
+<p>没有房租，没有工作群。</p>
+<p>更重要的是，有人请客。</p>
+<p>总管太监指着一道精美菜肴，高声报菜名：</p>
+<p>“第一道，九天玄凤落碧池！”</p>
+<p>朱宏古尝了一口。</p>
+<p>“烧鹅。”</p>
+<p>太监笑容微僵。</p>
+<p>“此乃岭南贡鹅，辅以宫廷秘法——”</p>
+<p>“昨天的。”</p>
+<p>满桌人同时停下筷子。</p>
+<p>朱宏古夹起鹅腿，认真端详了一下切口。</p>
+<p>“这皮软了，骨头边上的肉也干。不是刚出炉的，回锅时又浇了一遍汁。”</p>
+<p>皇帝看向御膳总管。</p>
+<p>总管额头开始冒汗。</p>
+<p>朱宏古还没有察觉气氛不对，已经吃到了第二道。</p>
+<p>“这个不错，叫什么？”</p>
+<p>“雪山藏玉龙。”</p>
+<p>“哦，葱烧豆腐。”</p>
+<p>“第三道，金丝缠凤翅。”</p>
+<p>“炸面条裹鸡翅。”</p>
+<p>“第四道，八宝聚——”</p>
+<p>“先等一下。”</p>
+<p>朱宏古放下筷子。</p>
+<p>“你们这桌多少钱？”</p>
+<p>太监不敢回答。</p>
+<p>皇帝替他答了。</p>
+<p>“采办报银二百八十两。”</p>
+<p>朱宏古缓缓抬头。</p>
+<p>他不知道大乾的物价，但刚才听宫人说，一个普通人家一年也花不了十两银子。</p>
+<p>他看了看桌上的豆腐。</p>
+<p>又看了看皇帝。</p>
+<p>眼神逐渐变得复杂。</p>
+<p>“陛下。”</p>
+<p>“讲。”</p>
+<p>“您是不是从来没自己下过馆子？”</p>
+<p>当晚，皇帝命人查验御膳采买账册。</p>
+<p>账册、库房存货、商户收据，一项项对下来，真查出了猫腻。</p>
+<p>御膳总管跪地如筛糠。</p>
+<p>皇帝看向朱宏古，目光愈发敬重。</p>
+<p>“仙长仅凭一口，便知其中玄机。”</p>
+<p>朱宏古赶紧摆手。</p>
+<p>“臣不懂仙术。”</p>
+<p>“那是？”</p>
+<p>朱宏古想了想。</p>
+<p>“臣连续八年，基本没在家吃过晚饭。”</p>
+<p>皇帝肃然。</p>
+<p>八年。</p>
+<p>日日遍尝人间滋味，只为今日一朝辨伪。</p>
+<p>这是什么精神？</p>
+<p>当天，一道圣旨传出宫门。</p>
+<p>封朱宏古为御膳顾问，赐宅一座，绸缎十匹，金牌一面。</p>
+<p>另赐爵号——</p>
+<p class="punchline">红谷侯。</p>
+<p>爵号是朱宏古自己选的。</p>
+<p>皇帝问他何意。</p>
+<p>他说：“就是好看，热闹，一眼就忘不了。”</p>
+<p>皇帝看了看那把正在紫色和绿色之间渐变的椅子。</p>
+<p>深以为然。</p></div>
+    </section>
+<section class="chapter" id="chapter-4" aria-labelledby="heading-chapter-4">
+    <div class="chapter-kicker"><span>CHAPTER 04</span><i></i></div>
+    <h2 id="heading-chapter-4">第四章　人都封侯了，卡怎么还是负的</h2>
+    <div class="chapter-text"><p>朱宏古封侯当晚，睡得很香。</p>
+<p>直到扶手屏幕自动亮起。</p>
+<div class="system-message" role="note">
+<p>【尊敬的持卡人，您的跨时空账单已完成结算。】</p>
+<p>【当前应还：白银八百八十八两。】</p>
+<p>【距最后还款日：七日。】</p>
+</div>
+<p>朱宏古盯着屏幕，足足看了一分钟。</p>
+<p>“我都穿越了。”</p>
+<div class="system-message" role="note">
+<p>【已识别。】</p>
+</div>
+<p>“我现在是侯爷。”</p>
+<div class="system-message" role="note">
+<p>【职业信息已更新。】</p>
+</div>
+<p>“这里没有你们银行。”</p>
+<div class="system-message" role="note">
+<p>【服务无远弗届。】</p>
+</div>
+<p>朱宏古坐直身体。</p>
+<p>“我申请注销。”</p>
+<div class="system-message" role="note">
+<p>【请先结清欠款。】</p>
+</div>
+<p>他终于明白，这场穿越转移了他的人生，并没有转移他的债务。</p>
+<p>屏幕下方还弹出两条小字。</p>
+<div class="system-message" role="note">
+<p>【还款方法：将现银放入左侧扶手储物格。】</p>
+<p>【离网供能已开启，费用另计。】</p>
+</div>
+<p>朱宏古慢慢低头，看向那个原本用来放奶茶的杯架。</p>
+<p>什么叫科技改变生活。</p>
+<p>这就叫科技改变生活。</p>
+<p>第二天，他开始盘点家产。</p>
+<p>宅子是御赐的，不好卖。</p>
+<p>金牌是御赐的，不敢当。</p>
+<p>十匹绸缎倒是可以变现，可惜他昨晚已经吩咐裁缝做成了六套衣服。</p>
+<p>每套都镶了不同颜色的边。</p>
+<p>很红谷。</p>
+<p>朱宏古站在院子中央，第一次对自己的审美产生了轻微动摇。</p>
+<p>但也只动摇了一瞬。</p>
+<p>“问题不大。”</p>
+<p>他把目光投向了电竞按摩椅。</p></div>
+    </section>
+<section class="chapter" id="chapter-5" aria-labelledby="heading-chapter-5">
+    <div class="chapter-kicker"><span>CHAPTER 05</span><i></i></div>
+    <h2 id="heading-chapter-5">第五章　红谷仙人馆，吃完按一按</h2>
+    <div class="chapter-text"><p>京城最热闹的长街上，很快开了一家新店。</p>
+<p>红谷仙人馆。</p>
+<p>朱宏古与隔壁酒楼谈好合作，菜由酒楼做，场地由他出。</p>
+<p>而整家店最值钱的东西，就摆在正堂中央。</p>
+<p>九色灯带。</p>
+<p>环绕音响。</p>
+<p>自动升降脚托。</p>
+<p>以及一张明码标价的木牌。</p>
+<p>吃饭：照菜单计价。</p>
+<p>坐椅：每次五两。</p>
+<p>指名皇帝同款程序：加二两。</p>
+<p>开业第一天，没人敢进。</p>
+<p>第二天，礼部尚书来坐了一次。</p>
+<p>第三天，门口开始排队。</p>
+<p>原因很简单。</p>
+<p>礼部尚书今年六十三，昨天下午从椅子上下来时，拒绝了轿夫搀扶，还亲自走到隔壁加了两碗饭。</p>
+<p>这事传进官场，效果比任何招牌都好。</p>
+<p>兵部侍郎想按肩。</p>
+<p>大理寺卿想按腰。</p>
+<p>一位老御史进店前痛斥此物奇技淫巧，进店后问能不能把下周三也约了。</p>
+<p>朱宏古每天站在门口迎来送往。</p>
+<p>“侯爷，这椅子为什么会发光？”</p>
+<p>“气氛。”</p>
+<p>“为什么还会唱曲？”</p>
+<p>“也是气氛。”</p>
+<p>“那不亮灯、不唱曲，能不能便宜一点？”</p>
+<p>朱宏古面露难色。</p>
+<p>“客官，那就不红谷了。”</p>
+<p>除了按摩，他还把多年下馆子的心得用到了店里。</p>
+<p>热菜不齐，不催客人买单。</p>
+<p>包厢里备醒酒汤，门口安排车马。</p>
+<p>贵客聊到要紧处，伙计不能突然推门问要不要加饭。</p>
+<p>每道菜分量多少、价钱多少，菜单上写得清清楚楚。</p>
+<p>他尤其厌恶一种事：人刚坐下，店家便故意拿一壶很贵的茶过来，喝完才说算钱。</p>
+<p>“茶钱提前讲。”</p>
+<p>朱宏古对掌柜说。</p>
+<p>“我以前吃过这个亏。”</p>
+<p>掌柜佩服得五体投地。</p>
+<p>侯爷句句有理。</p>
+<p>就是每天晚上收工以后，侯爷总要问同一个问题。</p>
+<p>“今天赚多少？”</p>
+<p>“四十七两。”</p>
+<p>“不错。走，换一家馆子吃。”</p>
+<p>掌柜终于忍不住了。</p>
+<p>“侯爷，咱们自己就是开馆子的。”</p>
+<p>朱宏古已经换好了衣服。</p>
+<p>“上班的地方，怎么能算下馆子？”</p></div>
+    </section>
+<section class="chapter" id="chapter-6" aria-labelledby="heading-chapter-6">
+    <div class="chapter-kicker"><span>CHAPTER 06</span><i></i></div>
+    <h2 id="heading-chapter-6">第六章　陛下，国库不支持最低还款</h2>
+    <div class="chapter-text"><p>到了第七日，朱宏古终于凑齐了八百八十八两。</p>
+<p>这其中，最后二十两还是他忍痛取消一桌全鱼宴省下来的。</p>
+<p>他把银子一点点塞进扶手储物格。</p>
+<p>杯架吞下最后一枚银锭时，屏幕闪过一道绿光。</p>
+<div class="system-message" role="note">
+<p>【本期账单已结清。】</p>
+</div>
+<p>朱宏古瘫在椅子上，长长吐出一口气。</p>
+<p>七天。</p>
+<p>整整七天。</p>
+<p>他明明已经穿越、封侯、开店，最后竟然还是在赶还款日。</p>
+<p>“以后不能这样了。”</p>
+<p>他语气沉重。</p>
+<p>屏幕适时弹出一则消息。</p>
+<div class="system-message" role="note">
+<p>【检测到优质履约记录，您的额度已提升。】</p>
+<p>【新品推荐：凌霄至尊Pro，新增十二色流光与双区足底热敷。】</p>
+</div>
+<p>朱宏古的手指停在半空。</p>
+<p>十二色。</p>
+<p>比他现在的，多三色。</p>
+<p>他盯了很久。</p>
+<p>最终，艰难地关掉了页面。</p>
+<p>就在这时，门外传来脚步声。</p>
+<p>皇帝微服而至，身后跟着户部尚书。</p>
+<p>朱宏古赶紧起身。</p>
+<p>“陛下，今日还是腰背舒缓？”</p>
+<p>皇帝摇头，抬手指向那把椅子。</p>
+<p>“宏古，此物甚好。”</p>
+<p>“谢陛下。”</p>
+<p>“朕想再要十把。”</p>
+<p>朱宏古精神一振。</p>
+<p>大单。</p>
+<p>皇帝继续说道：</p>
+<p>“太后宫里放一把，御书房放一把。剩下的，赐给几位老臣。都是为国操劳的人，也该享享福。”</p>
+<p>朱宏古心中飞快算起了账。</p>
+<p>“陛下，此物造价不菲。”</p>
+<p>“朕知道。”</p>
+<p>“而且先得付银子。”</p>
+<p>皇帝没有立刻回答，只是看了一眼户部尚书。</p>
+<p>尚书低下头。</p>
+<p>殿前熟悉的沉默，又出现了。</p>
+<p>良久，皇帝缓缓开口。</p>
+<p>“宏古。”</p>
+<p>“臣在。”</p>
+<p>“你前日说，有一种法子，不必一次把钱付清。”</p>
+<p>朱宏古脸上的笑容一点点消失。</p>
+<p>皇帝背着手，望着满屋七彩流光，神情十分从容。</p>
+<p>“朕想办十二期。”</p>
+<p>户部尚书赶紧补充：</p>
+<p>“最好前三个月不用还。”</p>
+<p>朱宏古看着皇帝。</p>
+<p>皇帝看着椅子。</p>
+<p>椅子上，一个朱宏古从前十分熟悉的温柔女声响了起来：</p>
+<p>“尊贵生活，无须等待。”</p>
+<p>满屋人都笑了。</p>
+<p>只有朱宏古没有笑。</p>
+<p>他忽然觉得，当年那个只有四百三十二块六，却执意要买按摩椅的人，并没有消失。</p>
+<p class="punchline">他只是换了一身龙袍。</p></div>
+    </section>
+<section class="chapter" id="epilogue" aria-labelledby="heading-epilogue">
+    <div class="chapter-kicker"><span>AFTERWORD</span><i></i></div>
+    <h2 id="heading-epilogue">卷末小记</h2>
+    <div class="chapter-text"><p>据《大乾逸闻》记载：</p>
+<p>红谷侯朱宏古，不好声色，不善骑射，独爱华灯、美馔与神座。</p>
+<p>其居处，夜间七彩夺目，十里可见。</p>
+<p>其行踪，朝在东街吃面，午于南市饮酒，暮宿西楼点菜。</p>
+<p>帝尝问其治国之道。</p>
+<p>宏古沉默良久，答曰：</p>
+<p class="punchline">“陛下，您先把上个月那期结了。”</p></div>
+    </section>
+      <div class="end-card"><div class="end-ornament">— ◇ —</div><h3>第一卷 · 完</h3><p>故事看完了，账单还没有。</p><button class="button button-secondary js-only" type="button" data-action="share"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 15V3M7 8L12 3L17 8M5 13V20H19V13" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>把这本书发给朋友</button></div>
+    </article>
+  </div>
+  <footer class="page-footer"><b>番薯小说</b> · 好故事，慢慢看。<br>原创恶搞作品 · 虚构平台书页 · 供朋友间娱乐阅读</footer>
+</main>
+<div class="reader-dock" role="toolbar" aria-label="阅读工具">
+  <button class="dock-button" type="button" id="open-toc" aria-haspopup="dialog" aria-controls="toc-dialog"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6H20M9 12H20M9 18H20M4 6H4.1M4 12H4.1M4 18H4.1" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>目录</span></button>
+  <div class="dock-divider" aria-hidden="true"></div>
+  <button class="dock-button" type="button" id="toggle-font" aria-expanded="false" aria-controls="font-settings"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 18L8 5L13 18M5 13H11M15 10H21M18 10V19" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg><span>字号</span></button>
+  <div class="dock-divider" aria-hidden="true"></div>
+  <button class="dock-button" type="button" id="toggle-theme" aria-pressed="false" aria-label="切换到夜间模式"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20.4 15.1A9 9 0 0 1 8.9 3.6A9 9 0 1 0 20.4 15.1Z" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg><span id="theme-label">夜间</span></button>
+  <div class="dock-divider" aria-hidden="true"></div>
+  <a class="dock-button" href="#top" aria-label="返回顶部"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 20V8M7 13L12 8L17 13M5 4H19" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg><span>顶部</span></a>
+</div>
+<section class="font-popover" id="font-settings" aria-labelledby="font-settings-title" hidden><h3 id="font-settings-title">阅读字号</h3><div class="font-controls"><button id="font-smaller" type="button" aria-label="减小正文字号">A−</button><output id="font-output" aria-live="polite">20 px</output><button id="font-larger" type="button" aria-label="增大正文字号">A＋</button></div></section>
+<dialog id="toc-dialog" aria-labelledby="dialog-title"><div class="dialog-head"><div><h2 id="dialog-title">章节目录</h2><p>第一卷 · 全六章与卷末小记</p></div><button class="dialog-close" type="button" id="close-toc" aria-label="关闭目录">×</button></div><ol class="toc-list"><li><a href="#chapter-1" data-chapter="chapter-1"><span class="toc-number">01</span><span>别人穿越带系统，我穿越带月供</span><span class="toc-arrow">›</span></a></li>
+<li><a href="#chapter-2" data-chapter="chapter-2"><span class="toc-number">02</span><span>陛下，您先把腰背模式关了</span><span class="toc-arrow">›</span></a></li>
+<li><a href="#chapter-3" data-chapter="chapter-3"><span class="toc-number">03</span><span>臣不懂仙术，臣只是天天下馆子</span><span class="toc-arrow">›</span></a></li>
+<li><a href="#chapter-4" data-chapter="chapter-4"><span class="toc-number">04</span><span>人都封侯了，卡怎么还是负的</span><span class="toc-arrow">›</span></a></li>
+<li><a href="#chapter-5" data-chapter="chapter-5"><span class="toc-number">05</span><span>红谷仙人馆，吃完按一按</span><span class="toc-arrow">›</span></a></li>
+<li><a href="#chapter-6" data-chapter="chapter-6"><span class="toc-number">06</span><span>陛下，国库不支持最低还款</span><span class="toc-arrow">›</span></a></li>
+<li><a href="#epilogue" data-chapter="epilogue"><span class="toc-number">07</span><span>卷末小记</span><span class="toc-arrow">›</span></a></li></ol></dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script>
+(function(){
+  'use strict';
+  const exportMarkup='<!DOCTYPE html>\n'+document.documentElement.outerHTML;
+  const root=document.documentElement;
+  root.classList.add('js');
+  const $=(id)=>document.getElementById(id);
+  const key='honggu_novel_v1_';
+  const store={get(k){try{return localStorage.getItem(key+k)}catch(e){return null}},set(k,v){try{localStorage.setItem(key+k,String(v))}catch(e){}}};
+  const chapters=Array.from(document.querySelectorAll('.chapter'));
+  const tocLinks=Array.from(document.querySelectorAll('[data-chapter]'));
+  let fontSize=Number(store.get('size'))||20;
+  let theme=store.get('theme')==='night'?'night':'day';
+  let toastTimer;
+  let lastChapter=store.get('chapter');
+  function toast(message){$('toast').textContent=message;$('toast').classList.add('visible');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('toast').classList.remove('visible'),3600)}
+  function applyTheme(){root.dataset.theme=theme;$('toggle-theme').setAttribute('aria-pressed',String(theme==='night'));$('toggle-theme').setAttribute('aria-label',theme==='night'?'切换到日间模式':'切换到夜间模式');$('theme-label').textContent=theme==='night'?'日间':'夜间';store.set('theme',theme)}
+  function applyFont(){fontSize=Math.min(26,Math.max(16,fontSize));root.style.setProperty('--reading-size',fontSize+'px');$('font-output').textContent=fontSize+' px';$('font-smaller').disabled=fontSize<=16;$('font-larger').disabled=fontSize>=26;store.set('size',fontSize)}
+  function closeSettings(){ $('font-settings').hidden=true; $('toggle-font').setAttribute('aria-expanded','false') }
+  applyTheme();applyFont();
+  if(lastChapter&&chapters.some(c=>c.id===lastChapter)&&lastChapter!=='chapter-1'){$('start-reading').href='#'+lastChapter;$('start-label').textContent='继续阅读'}
+  $('toggle-theme').addEventListener('click',()=>{theme=theme==='night'?'day':'night';applyTheme()});
+  $('toggle-font').addEventListener('click',()=>{const show=$('font-settings').hidden;$('font-settings').hidden=!show;$('toggle-font').setAttribute('aria-expanded',String(show))});
+  $('font-smaller').addEventListener('click',()=>{fontSize-=2;applyFont();updateProgress()});
+  $('font-larger').addEventListener('click',()=>{fontSize+=2;applyFont();updateProgress()});
+  document.addEventListener('click',(e)=>{if(!$('font-settings').hidden&&!$('font-settings').contains(e.target)&&!$('toggle-font').contains(e.target))closeSettings()});
+  document.addEventListener('keydown',(e)=>{if(e.key==='Escape')closeSettings()});
+  const dialog=$('toc-dialog');
+  $('open-toc').addEventListener('click',()=>{closeSettings();if(typeof dialog.showModal==='function')dialog.showModal();else location.hash='contents'});
+  $('close-toc').addEventListener('click',()=>dialog.close());
+  dialog.addEventListener('click',(e)=>{if(e.target===dialog){const rect=dialog.getBoundingClientRect();if(e.clientX<rect.left||e.clientX>rect.right||e.clientY<rect.top||e.clientY>rect.bottom)dialog.close()}});
+  dialog.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>dialog.close()));
+  document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',()=>closeSettings()));
+  function updateProgress(){
+    const article=document.querySelector('.novel-body');
+    const start=article.getBoundingClientRect().top+window.scrollY;
+    const end=article.getBoundingClientRect().bottom+window.scrollY-window.innerHeight;
+    const progress=Math.max(0,Math.min(100,Math.round((window.scrollY-start)/Math.max(1,end-start)*100)));
+    $('progress-bar').style.width=progress+'%';$('mini-progress').style.width=progress+'%';$('progress-label').textContent=progress+'%';
+    let active=null;
+    for(const chapter of chapters){if(chapter.getBoundingClientRect().top<=Math.min(180,innerHeight*.25))active=chapter.id}
+    for(const link of tocLinks){if(link.dataset.chapter===active)link.setAttribute('aria-current','location');else link.removeAttribute('aria-current')}
+    if(active&&active!==lastChapter){lastChapter=active;store.set('chapter',active)}
+  }
+  let ticking=false;
+  window.addEventListener('scroll',()=>{if(!ticking){requestAnimationFrame(()=>{updateProgress();ticking=false});ticking=true}},{passive:true});
+  window.addEventListener('resize',updateProgress,{passive:true});
+  updateProgress();
+  function downloadFile(){
+    const blob=new Blob([exportMarkup],{type:'text/html;charset=utf-8'});
+    const url=URL.createObjectURL(blob);
+    const link=document.createElement('a');link.href=url;link.download='zhuhonggu-novel.html';document.body.appendChild(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),60000);
+  }
+  async function shareFile(){
+    try{
+      const file=new File([exportMarkup],'zhuhonggu-novel.html',{type:'text/html'});
+      if(navigator.share&&navigator.canShare&&navigator.canShare({files:[file]})){
+        await navigator.share({files:[file],title:'我都穿越了，怎么还要还信用卡？',text:'别人穿越带系统，他穿越带月供。朱宏古穿越短篇，完整六章。'});
+        return;
+      }
+    }catch(error){if(error&&error.name==='AbortError')return}
+    downloadFile();toast('已下载完整 HTML 文件，可以直接发给朋友。');
+  }
+  document.querySelectorAll('[data-action="download"]').forEach(button=>button.addEventListener('click',()=>{downloadFile();toast('已保存完整六章。用浏览器打开即可阅读。')}));
+  document.querySelectorAll('[data-action="share"]').forEach(button=>button.addEventListener('click',shareFile));
+})();
+</script>
+</body>
+</html>
